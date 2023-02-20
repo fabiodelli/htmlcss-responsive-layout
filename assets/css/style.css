@@ -22,7 +22,7 @@ body{
 
 div[class^="col_"]{
     border-radius: 25px;
-    margin: 0.5rem 0.5rem;
+    margin: 0.5rem 0;
 }
 
 /* #region utility*/
@@ -51,7 +51,7 @@ div[class^="col_"]{
 
 #app_header{
     width: 100%;
-    background-color: blue;
+    background-color: #0084fd;
     display: flex;
 }
 
@@ -80,7 +80,7 @@ div[class^="col_"]{
 .strategic{
     width: 100%;
     display: flex;
-    background: rgb(204, 103, 218);
+    background: #9792E4;
 }
 .expert_partners{
     width: 100%;
@@ -89,7 +89,7 @@ div[class^="col_"]{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    background: rgb(204, 103, 218);
+    background: #9792E4;
 }
 .about_us{
     width: 100%;
@@ -98,7 +98,7 @@ div[class^="col_"]{
 }
 .call_to_action{
     width: 100%;
-    background: rgb(204, 103, 218);
+    background: #9792E4;
     text-align: center;
 }
 
