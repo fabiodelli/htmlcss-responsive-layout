@@ -2,17 +2,17 @@
    height: 50px;
 }
 
-.header_logo{
+/* .header_logo{
     height: 50px;
 }
 
 .header_burger{
     height: 50px;
-}
+} */
 
-.demo{
+/* .demo{
     height: 100PX;
-}
+} */
 .strategic{
     height: 100PX;
 }
@@ -32,3 +32,19 @@
 #app_footer{
     height: 100px;
 }
+
+/* #region debug utility*/
+
+.col_4{
+    height: 100px;
+}
+
+.col_8{
+    height: 100px;
+}
+
+.col_12{
+    height: 100px;
+}
+
+/* #endregion debug utility*/
