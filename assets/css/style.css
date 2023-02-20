@@ -84,10 +84,17 @@ div[class^="col_"]{
 }
 .about_us{
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
 }
 .call_to_action{
     width: 100%;
     background: rgb(204, 103, 218);
+    text-align: center;
+}
+
+.call_to_action_btn{
+
 }
 
 /* #endregion Main */
@@ -97,6 +104,7 @@ div[class^="col_"]{
 #app_footer{
     background-color: black;
     width: 100%;
+    text-align: center;
 }
 
 /* #endregion Footer*/
