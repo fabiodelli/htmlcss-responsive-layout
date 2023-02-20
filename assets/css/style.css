@@ -2,5 +2,16 @@
  margin:0;
  padding:0;
  box-sizing:border-box;
-/*  border: 1px solid black dashed; */
+ border: 1px dashed black;
 }
+
+/* #region Header*/
+
+#app_header{
+    height: 100px;
+    width: 100%;
+    background-color: blue;
+
+}
+
+/* #endregion Header*/
