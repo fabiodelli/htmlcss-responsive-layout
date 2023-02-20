@@ -8,10 +8,39 @@
 /* #region Header*/
 
 #app_header{
-    height: 100px;
     width: 100%;
     background-color: blue;
+    display: flex;
+}
 
+.header_logo{
+    width: 50%;
+}
+
+.header_burger{
+    width: 50%;
 }
 
 /* #endregion Header*/
+/* #region */
+
+.demo{
+    width: 100%;
+}
+.strategic{
+    width: 100%;
+}
+.expert_partners{
+    width: 100%;
+}
+.benefits{
+    width: 100%;
+}
+.about_us{
+    width: 100%;
+}
+.call_to_actions{
+    width: 100%;
+}
+
+/* #endregion */
