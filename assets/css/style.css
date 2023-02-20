@@ -3,6 +3,15 @@
  padding:0;
  box-sizing:border-box;
  border: 1px dashed black;
+ font-family: 'PT Sans', sans-serif;
+}
+
+:root{
+    --first-:#9792E4;
+    --second-:#0084fd;
+    --call-to-action-:#FDC15F;
+    --light-second-:#B5DDFF;
+    --footer-:#333333;
 }
 
 body{
@@ -13,7 +22,7 @@ body{
 
 div[class^="col_"]{
     border-radius: 25px;
-    margin: 0.5rem 0rem;
+    margin: 0.5rem 0.5rem;
 }
 
 /* #region utility*/
