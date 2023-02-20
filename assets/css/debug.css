@@ -25,6 +25,10 @@
 .about_us{
     height: 100PX;
 }
-.call_to_actions{
+.call_to_action{
     height: 100PX;
+}
+
+#app_footer{
+    height: 100px;
 }

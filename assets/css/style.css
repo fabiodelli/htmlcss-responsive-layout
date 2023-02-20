@@ -5,6 +5,24 @@
  border: 1px dashed black;
 }
 
+/* #region utility*/
+
+.col_4{
+    width: calc((100%/12)*4);
+}
+
+.col_8{
+    width: calc((100%/12)*8);
+}
+
+.col_12{
+    width: calc((100%/12)*12);
+}
+
+
+
+/* #endregion utility*/
+
 /* #region Header*/
 
 #app_header{
@@ -29,18 +47,30 @@
 }
 .strategic{
     width: 100%;
+    background: rgb(204, 103, 218);
 }
 .expert_partners{
     width: 100%;
 }
 .benefits{
     width: 100%;
+    background: rgb(204, 103, 218);
 }
 .about_us{
     width: 100%;
 }
-.call_to_actions{
+.call_to_action{
     width: 100%;
+    background: rgb(204, 103, 218);
 }
 
 /* #endregion */
+
+/* #region Footer*/
+
+#app_footer{
+    background-color: black;
+    width: 100%;
+}
+
+/* #endregion Footer*/
