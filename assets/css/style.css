@@ -4,6 +4,11 @@
  box-sizing:border-box;
  border: 1px dashed black;
  font-family: 'PT Sans', sans-serif;
+ font-size:  15px ;
+}
+
+img{
+    max-width:100%
 }
 
 :root{
@@ -28,6 +33,11 @@ div[class^="col_"]{
 
 /* #region utility*/
 
+.d_f_w{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .bg_first{
     background-color: #9792E4;
 }
@@ -38,6 +48,22 @@ div[class^="col_"]{
 
 .bg_white{
     background-color:white;
+}
+
+.w_50{
+    width: 50%;
+}
+
+.secondary_color_text{
+    color: #0084fd;
+}
+
+.m_b_1rem{
+    margin-bottom: 1rem ;
+}
+
+.m_b_2rem{
+    margin-bottom: 2rem ;
 }
 
 .col_4{
@@ -64,15 +90,34 @@ div[class^="col_"]{
     width: 100%;
     background-color: #0084fd;
     display: flex;
+    justify-content: space-around;
 }
 
+.container_small_header{
+    width: 100%;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+   
+}
 .header_logo{
-    width: 50%;
+    width: 60px;
 }
 
 .header_burger{
-    width: 50%;
+    font-size: 25px;
 }
+
+.header_nav{
+    display: none; 
+}
+
+.header_nav>a{
+     color: white;
+     text-decoration: none;
+}
+
 
 /* #endregion Header*/
 /* #region Main */
@@ -95,6 +140,7 @@ div[class^="col_"]{
 
 .container_small{
     width: 100%;
+    padding: 1rem;
 }
 
 .demo{
@@ -103,6 +149,13 @@ div[class^="col_"]{
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+.app_store_btn{
+    background-color: white;
+    border-radius: 50px;
+    padding: 0.5rem;
+}
+
 .strategic{
     display: flex;
     justify-content: space-between;
@@ -134,7 +187,6 @@ div[class^="col_"]{
 
 .call_to_action_btn{
     color: #FDC15F;
-
 }
 
 /* #endregion Main */
@@ -163,6 +215,18 @@ div[class^="col_"]{
     .col_6{
         width: calc((98%/12)*6);
     }
+
+    .d_f_w{
+       flex-wrap: initial;
+    }
+
+    .header_burger{
+        display: none;
+    }
+    
+    .header_nav{
+        display: inline-block;
+    }
 }
 
 /* #endregion media_480*/
@@ -175,6 +239,9 @@ div[class^="col_"]{
     width: 768px;
 }
 
+.container_small_header{
+   width: 768px;
+}
 
 }
 /* #endregion media_768*/

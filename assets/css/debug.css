@@ -1,6 +1,6 @@
-#app_header{
+/* #app_header{
    height: 50px;
-}
+} */
 
 /* .header_logo{
     height: 50px;
@@ -35,16 +35,16 @@
 
 /* #region debug utility*/
 
-.col_4{
+/* .col_4{
     height: 100px;
 }
 
 .col_8{
     height: 100px;
-}
+} */
 
-.col_12{
+/* .col_12{
     height: 100px;
-}
+} */
 
 /* #endregion debug utility*/
