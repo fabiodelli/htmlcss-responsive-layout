@@ -8,7 +8,7 @@
 }
 
 img{
-    max-width:100%
+    width:100%
 }
 
 :root{
@@ -28,6 +28,10 @@ body{
 div[class^="col_"]{
     border-radius: 20px;
     margin: 0.5rem 0;
+}
+
+h2{
+    font-size: 30px;
 }
 
 /* #region utility*/
@@ -59,6 +63,18 @@ div[class^="col_"]{
     background-color:white;
 }
 
+.text_white{
+    color:white;
+}
+
+.text_first{
+    color:#9792E4;
+}
+
+.text_second{
+    color:#0084fd;
+}
+
 .w_50{
     width: 50%;
 }
@@ -66,13 +82,15 @@ div[class^="col_"]{
 .rounded_label{
     border-radius: 50px;
     padding: 0.2rem 0.5rem;
-    width: 25px;
-    height: 25px;
     background-color:#9792E4;
 }
 
 .secondary_color_text{
     color: #0084fd;
+}
+
+.p_1rem{
+    padding: 1rem;
 }
 
 .p_b_1rem{
@@ -93,6 +111,11 @@ div[class^="col_"]{
 
 .m_b_4rem{
     margin-bottom: 4rem ;
+}
+
+
+.m_t_1rem{
+    margin-top: 1rem ;
 }
 
 .m_t_2rem{
@@ -211,9 +234,27 @@ div[class^="col_"]{
     background: #9792E4;
 }
 
-.expert_partners{
-    width: 100%;
+.round_expert {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    overfloW: hidden;
+    border-radius: 50%;
 }
+
+#expert_img {
+    width: auto;
+    height: 100%;
+    margin-left: -25px;
+}
+
+.card_expert{
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    color: white;
+}
+
 .benefits{
     width: 100%;
     display: flex;
@@ -221,6 +262,32 @@ div[class^="col_"]{
     flex-wrap: wrap;
     background: #9792E4;
 }
+
+.card_benefits{
+
+    text-align: left;
+    padding: 2rem;
+}
+
+.number{
+    color: #9792E4;
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.benefits_p{
+    color: rgb(121, 120, 120);
+    margin-bottom: 2rem;
+}
+
+.card_benefits_btn{
+    background-color:#9792E4;
+    border-radius: 25px;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+}
+
 .about_us{
     width: 100%;
     display: flex;
@@ -285,8 +352,16 @@ div[class^="col_"]{
     }
 
     .strategic-768{
-        margin-top: 12rem;
+        margin-top: 10rem;
     }
+
+    .card_expert{
+        display: flex;
+        flex-wrap: none;
+    }
+    .round_expert {
+        width: 125px;
+        }
 
 }
 
