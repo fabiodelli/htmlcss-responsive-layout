@@ -23,6 +23,7 @@ body{
 div[class^="col_"]{
     border-radius: 25px;
     margin: 0.5rem 0;
+    padding: 0.5rem;
 }
 
 /* #region utility*/
@@ -77,8 +78,23 @@ div[class^="col_"]{
 /* #region Main */
 
 #app_main{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
     justify-content: center;
-    padding: 1rem;
+    width: 100%;
+}
+
+.container_large{
+    width: 100%;
+    background-color: #9792E4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container_small{
+    width: 100%;
 }
 
 .demo{
@@ -88,12 +104,12 @@ div[class^="col_"]{
     justify-content: space-between;
 }
 .strategic{
-    width: 100%;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     background: #9792E4;
 }
+
 .expert_partners{
     width: 100%;
 }
@@ -117,6 +133,7 @@ div[class^="col_"]{
 }
 
 .call_to_action_btn{
+    color: #FDC15F;
 
 }
 
@@ -153,9 +170,11 @@ div[class^="col_"]{
 /* #region media_768*/
 
 @media screen and (min-width:769px) {
-    #app_main{
-        max-width: 768px;
-    }
+    
+.container_small{
+    width: 768px;
 }
 
+
+}
 /* #endregion media_768*/
