@@ -247,7 +247,7 @@
 
  .demo_img{
     position: relative;
-    bottom: -5px;
+    bottom: -19px;
  }
 
  .app_store_btn {
@@ -274,7 +274,7 @@
      width: 100px;
      height: 100px;
      overfloW: hidden;
-     border-radius: 50%;
+     border-radius: 50px;
  }
 
  #expert_img {
@@ -286,7 +286,7 @@
  .card_expert {
      justify-content: center;
      align-items: center;
-     padding: 1rem;
+     padding: 0.5rem;
      color: white;
  }
 
@@ -431,12 +431,16 @@
          flex-wrap: none;
      }
 
+     .card_expert p {
+       margin-top: 2rem;
+    }
+
      .round_expert {
-         width: 125px;
-     }
+        width: auto;
+    }
 
      .round_expert_about {
-         margin-top: 4rem;
+         margin-top: 6rem;
      }
 
      .position_quote{
