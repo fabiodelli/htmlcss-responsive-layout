@@ -28,7 +28,6 @@
 
  div[class^="col_"] {
      border-radius: 20px;
-     margin: 0.5rem 0;
  }
 
  h2 {
@@ -286,6 +285,7 @@
  .card_expert {
      justify-content: center;
      align-items: center;
+     margin: 1rem;
      padding: 0.5rem;
      color: white;
  }
