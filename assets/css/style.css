@@ -17,6 +17,7 @@
      --call-to-action-: #FDC15F;
      --light-second-: #B5DDFF;
      --footer-: #333333;
+     --text-: rgb(121, 120, 120);
  }
 
  body {
@@ -35,7 +36,7 @@
  }
 
  h1 {
-     font-size: 35px;
+     font-size: 50px;
  }
 
  /* #region utility*/
@@ -75,6 +76,9 @@
      color: #9792E4;
  }
 
+ .text_gray {
+    color: rgb(134, 134, 134);
+ }
  .text_second {
      color: #0084fd;
  }
@@ -129,7 +133,6 @@
      margin-bottom: 4rem;
  }
 
-
  .m_t_1rem {
      margin-top: 1rem;
  }
@@ -147,19 +150,23 @@
  }
 
  .col_4 {
-     width: calc((100%/12)*4);
+     width: calc((100%/12)*4);  
  }
 
  .col_6 {
-     width: calc((100%/12)*6);
+     width: calc((100%/12)*6); 
  }
 
  .col_8 {
-     width: calc((100%/12)*8);
+     width: calc((100%/12)*8); 
  }
 
  .col_12 {
      width: calc((100%/12)*12);
+ }
+
+ .text_decoration_none{
+    text-decoration: none;
  }
 
  /* #endregion utility*/
@@ -179,7 +186,6 @@
      justify-content: space-between;
      align-items: center;
      padding: 1rem;
-
  }
 
  .header_logo {
@@ -197,6 +203,7 @@
  .header_nav>a {
      color: white;
      text-decoration: none;
+     padding: 0 0.5rem;
  }
 
 
@@ -230,6 +237,17 @@
      display: flex;
      flex-wrap: wrap;
      justify-content: space-between;
+ }
+
+ .card_demo{
+    border: 0.3rem solid white;
+    padding: 1rem;
+    color:rgb(134, 134, 134);
+ }
+
+ .demo_img{
+    position: relative;
+    bottom: -5px;
  }
 
  .app_store_btn {
@@ -281,7 +299,6 @@
  }
 
  .card_benefits {
-
      text-align: left;
      padding: 2rem;
  }
@@ -294,7 +311,7 @@
  }
 
  .benefits_p {
-     color: rgb(121, 120, 120);
+     color: rgb(134, 134, 134);
      margin-bottom: 2rem;
  }
 
@@ -303,6 +320,7 @@
      border-radius: 25px;
      padding: 0.5rem 1rem;
      text-decoration: none;
+     color: white;
  }
 
  .about_us {
@@ -318,6 +336,16 @@
      height: 100px;
      overfloW: hidden;
      border-radius: 50%;
+ }
+
+ .wrapper{
+    position: relative;
+ }
+
+ .position_quote{
+    position: absolute;
+    font-size: 2rem;
+    left: 75%;
  }
 
  .linkedin_btn {
@@ -337,7 +365,7 @@
  }
 
  .call_to_action_btn {
-     padding: 0.5rem;
+     padding: 0.5rem 2rem;
      background:white;
      color: #9792E4;
      width: fit-content;
@@ -349,7 +377,7 @@
  /* #region Footer*/
 
  #app_footer {
-     background-color: black;
+     background-color:#333333;
      width: 100%;
      text-align: center;
  }
@@ -368,15 +396,15 @@
      }
 
      .col_4 {
-         width: calc((98%/12)*4);
+         width: calc((100%/12)*4);
      }
 
      .col_8 {
-         width: calc((98%/12)*8);
+         width: calc((100%/12)*8);
      }
 
      .col_6 {
-         width: calc((98%/12)*6);
+         width: calc((100%/12)*6);
      }
 
      .d_f_w {
@@ -394,6 +422,9 @@
      .strategic-768 {
          margin-top: 10rem;
      }
+     .card_benefits {
+        border: 0.3rem solid #9792E4;
+    }
 
      .card_expert {
          display: flex;
@@ -408,6 +439,12 @@
          margin-top: 4rem;
      }
 
+     .position_quote{
+        position: absolute;
+        font-size: 2rem;
+        left: 78%;
+        top: -6.5rem;
+     }
  }
 
  /* #endregion media_768*/
@@ -423,7 +460,6 @@
      .container_small_header {
          width: 768px;
      }
-
  }
 
  /* #endregion media_1140*/

@@ -33,7 +33,7 @@
 
             <div class="container_small">
                 <div class="demo">
-                    <div class="col_12 col_8 bg_ligth-second d_f_w">
+                    <div class="col_12 col_8 bg_ligth-second d_f_w card_demo">
                         <div>
                             <h4 class="secondary_color_text m_b_2rem m_t_2rem">Get
                                 a demo
@@ -47,11 +47,11 @@
                                     class="fa-brands fa-apple"></i> App store</span>
                         </div>
                         <div class="m_t_2rem">
-                            <img src="./assets/img/phone.png" alt="smartphone">
+                            <img class="demo_img" src="./assets/img/phone.png" alt="smartphone">
                         </div>
                     </div>
 
-                    <div class="col_12 col_4 bg_ligth-second">
+                    <div class="col_12 col_4 bg_ligth-second card_demo">
                         <i class="fa-sharp fa-solid fa-file-code m_b_2rem
                             m_t_2rem text_second"></i>
                         <h4 class="m_b_1rem secondary_color_text">Clean code</h4>
@@ -59,7 +59,7 @@
                             consectetur adipisicing
                             elit. Sed iure sequi aperiam dolore architecto eius.</p>
                     </div>
-                    <div class="col_12 col_4 bg_ligth-second">
+                    <div class="col_12 col_4 bg_ligth-second card_demo">
                         <i class="fa-solid fa-compass-drafting m_b_2rem m_t_2rem
                             text_second"></i>
                         <h4 class="m_b_1rem secondary_color_text">Web Design</h4>
@@ -67,7 +67,7 @@
                             consectetur adipisicing
                             elit. Sed iure sequi aperiam dolore architecto eius.</p>
                     </div>
-                    <div class="col_12 col_4 bg_ligth-second">
+                    <div class="col_12 col_4 bg_ligth-second card_demo">
                         <i class="fa-solid fa-laptop-code m_b_2rem m_t_2rem
                             text_second"></i>
                         <h4 class="m_b_1rem secondary_color_text">Development</h4>
@@ -75,7 +75,7 @@
                             consectetur adipisicing
                             elit. Sed iure sequi aperiam dolore architecto eius.</p>
                     </div>
-                    <div class="col_12 col_4 bg_ligth-second">
+                    <div class="col_12 col_4 bg_ligth-second card_demo">
                         <i class="fa-solid fa-bullhorn m_b_2rem m_t_2rem
                             text_second"></i>
                         <h4 class="m_b_1rem secondary_color_text">Branding</h4>
@@ -96,7 +96,7 @@
                             <img class="m_b_4rem"
                                 src="./assets/img/planning1.png" alt="planning">
                             <h3 class="m_b_2rem">Strategic Plannig</h3>
-                            <p>Lorem, ipsum dolor sit amet consectetur
+                            <p class="text_white">Lorem, ipsum dolor sit amet consectetur
                                 adipisicing elit. Eius totam eveniet
                                 reprehenderit. Voluptatibus, dolorem
                                 accusantium!</p>
@@ -108,11 +108,11 @@
                                 src="./assets/img/planning2.png"
                                 alt="development">
                             <h3 class="m_b_1rem">App development</h3>
-                            <p class="m_b_1rem">Lorem ipsum dolor sit amet
+                            <p class="m_b_1rem text_gray">Lorem ipsum dolor sit amet
                                 consectetur,
                                 adipisicing elit. Nobis in commodi impedit,
                                 ipsum ratione beatae?</p>
-                            <div class="rounded_label">1</div>
+                            <div class="rounded_label">&downarrow;</div>
                         </span>
                     </div>
                 </div>
@@ -122,8 +122,11 @@
             <div class="container_small">
                 <div class="expert_partners">
                     <div class="col_12">
-                        <h3 class="m_b_1rem">Testimonial</h3>
-                        <h2 class="m_b_1rem">we are committed expert partners</h2>
+                        <h3 class="m_b_2rem m_t_1rem">Testimonial</h3>
+                        <h2 class="m_b_2rem">We are committed expert partners</h2>
+                        <p class="m_b_2rem text_gray">Lorem, ipsum dolor sit amet consectetur adipisicing
+                            elit. Laudantium tempore minima, error repellendus
+                            assumenda accusamus?</p>
                     </div>
 
                     <div class="col_12 bg_first card_expert">
@@ -247,8 +250,8 @@
             <div class="container_small">
                 <div class="about_us">
                     <div class="col_12 col_8">
-                        <h2 class="text_first m_b_2rem">About Us</h2>
-                        <p class="m_b_4rem text_align_left">
+                        <h2 class="text_first m_b_2rem m_t_2rem text_align_left ">About Us</h2>
+                        <p class="m_b_4rem text_align_left text_gray">
                             Lorem ipsum dolor sit amet consectetur, adipisicing
                             elit. Officiis, cumque fugit eius veniam error quis
                             itaque, quisquam officia non nihil harum a beatae.
@@ -266,13 +269,15 @@
                     </div>
 
                     <div class="col_12 col_4">
-                        <div class="round_expert_about m_b_1rem ">
-                            <img src="./assets/img/about.jpg" alt="Face">
-                        </div>
+                        <span class="wrapper">
+                            <i class="fa-solid fa-quote-left text_first position_quote"></i>
+                            <div class="round_expert_about m_b_1rem ">
+                                <img src="./assets/img/about.jpg" alt="Face">
+                            </div>
+                        </span>
                         <h3 class="text_first m_b_1rem">Lorem ipsum dolor sit
-                            amet,
-                            consectetur adipisicing elit. Quod maxime itaque
-                            beatae.</h3>
+                            amet,consectetur adipisicing elit.
+                        </h3>
                         <a href="#" class="bg_first linkedin_btn"><i
                                 class="fa-brands
                                 fa-linkedin m_r "></i>Find me on linkedin</a>
@@ -285,15 +290,13 @@
                     <div class="call_to_action">
                         <div class="m_t_1rem m_b_1rem">Get started</div>
                         <h2 class="m_b_1rem">Simple, Transparent Pricing</h2>
-                        <h1 class="m_b_1rem text_call_to_action">It's Free</h1>
-                        <div class="m_b_1rem">Lorem ipsum dolor, sit amet consectetur adipisicing
-                                             elit. <br> Quisquam id neque nisi rem similique?</div>
+                        <h1 class="m_b_1rem text_call_to_action">It's Free!</h1>
+                        <div class="m_b_2rem">Lorem ipsum dolor, sit amet
+                            consectetur adipisicing
+                            elit. <br> Quisquam id neque nisi rem similique?</div>
                         <span class="call_to_action_btn">Get Started</span>
-                        <div class="m_t_1rem"> coopyright 2021 Boolean<i class="fa-duotone
-                                fa-period"></i>Classe
-                            XX<i class="fa-duotone fa-period"></i><a href="#">
-                                Privacy
-                                polici</a></div>
+                        <div class="m_t_2rem"> coopyright 2021 Boolean<i
+                                class="fa-duotone fa-period"></i>Classe XX<i class="fa-duotone fa-period"></i><a class="text text_white" href="#"> Privacy polici</a></div>
                     </div>
                 </div>
             </div>
@@ -301,13 +304,17 @@
 
         <footer id="app_footer">
 
-            <div class="text_white">Lorem ipsum dolor sit, amet consectetur
-                adipisicing elit. Rerum
+            <div class="text_white m_b_2rem m_t_2rem">Lorem ipsum dolor sit,
+                amet consectetur
+                adipisicing elit. <br> Rerum
                 dicta omnis soluta consequuntur accusantium et id!s
             </div>
-            <div>
-                <a href="#">Lorem ipsum</a>Lorem, ipsum dolor.<a href="#">Boolean</a><br><a
-                    href="#">careers</a>
+            <div class="text_white m_b_2rem">
+                <a class="text_first" href="#">Lorem ipsum</a>
+                Lorem, ipsum dolor.
+                <a class="text_first" href="#">Boolean</a>
+                <br>
+                <a class="text_first" href="#">careers</a>
             </div>
 
         </footer>
